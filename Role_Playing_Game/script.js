@@ -73,6 +73,7 @@ function buyWeapon() {
         goldText.innerText = gold;
         let newWeapon = weapons[currentWeapon].name;
         goldText.innerText = "You now have a "+ newWeapon + ".";
+        inventory.push(newWeapon);
     }
 }
 function update(location){
